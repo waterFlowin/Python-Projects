@@ -1,0 +1,7 @@
+i = 1
+while i < 2001:
+	if i % 2 == 1:
+		print “Number is”, i ,”This is an odd number!”
+	if i % 2 == 0:
+		print “Number is”, i ,”This is an even number!”
+	i += 1

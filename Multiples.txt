@@ -1,0 +1,13 @@
+Part I
+
+for i in range(0, 1001):
+	if i % 2 == 1:
+		print i
+
+
+Part II
+
+i = 5
+while i < 1000001:
+	print i
+	i += 5

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Want to play a game?</title>
+</head>
+<body>
+	<h2>Want to play?</h2>
+	<p>So I'm thinking of a number between 1 and 100</p>
+	<h4>Guess right you live; try again until your not wrong or you die :D HAHA</h4>
+
+	<form action="/guess" method="post">
+		<input type="text" name="num"><br>
+		<input type="submit" value="You Sure?">
+	</form>
+	<p>{{session['answer']}}</p>
+</body>
+</html>
